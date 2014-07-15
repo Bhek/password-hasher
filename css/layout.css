@@ -1,0 +1,46 @@
+body {
+    color: #505050;
+    background-color: #F7F7F7;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding-left:10%;
+    padding-right: 10%;
+    top:0;
+    width:80%;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: block;
+    position: relative;
+    float: left;
+    width: 450px;
+    font-size:20px;
+}
+
+#line {
+    position: relative;
+    width: 100%;
+    right: 0;
+    left: 0%; /* seeing as content is centered, make margin-left start at center of page */
+    height: 2px;
+    background-color: #505050;
+}
+
+a {
+    color: #505050;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0084b4;
+}
+
+.main {
+    width: 100%;
+    padding-top: 20px;
+}
